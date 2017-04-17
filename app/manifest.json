@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "Block showroom autoplay youtube",
-    "version": "0.3",
+    "version": "0.4",
     "description": "停止showroom自動撥放youtube影片",
     "icons": {
         "16": "icon16.png",
