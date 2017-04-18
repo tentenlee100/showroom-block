@@ -1,6 +1,6 @@
 function stopAutoPlay() {
     var youtubePlayer = document.getElementById('youtubePlayer');
-    if (youtubePlayer != null){
+    if (youtubePlayer != null && youtubePlayer.src != null){
       var srcUrl = youtubePlayer.src;
       srcUrl = srcUrl.replace('autoplay=1&', '');
       youtubePlayer.src = srcUrl;
